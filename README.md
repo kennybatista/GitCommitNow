@@ -3,10 +3,9 @@
 #Day 13
 
 
-Intructions
-- Open File
+[See it live!](http://kennybatista.github.io/GitCommitNow/)
 
 Made this for a friend i'm doing a git commit challenge with.
 
-![screenshot](https://github.com/kennybatista/iOS-Design/blob/master/screenshot.png)
+![screenshot](https://github.com/kennybatista/GitCommitNow/blob/master/screenshot.png)
 
