@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+        <meta http-equiv="refresh" content="3">
+        <style>
+
+        	body {
+        		background-color: black;
+        		
+        	}
+        	.recording {
+        		background-color: red;
+        		width: 250px;
+        		height: 250px;
+        		position: relative;
+        		left: 470px;
+        		top: 100px;
+        		border-radius: 600px;
+                
+        		
+
+        	}
+
+        	.back-recording {
+        		background-color: red;
+        		width: 320px;
+        		height: 320px;
+        		position: absolute;
+        		left: 443px;
+        		top: 72px;
+        		border-radius: 600px;
+        		opacity: 0.4;
+        		z-index: -1;
+
+        	}
+
+            h1 {
+                position: relative;
+                top: 200px;
+                left: 100px;
+                font-size: 50px;
+                font-family: Helvetica;
+                color: lime;
+                margin: 30px;
+                white-space:nowrap;
+                overflow: hidden;
+                width: 30em;
+                
+                animation: type 3s steps(50, end) 1 ;
+                }
+                
+                @keyframes type{
+                      from{ width: 0;}
+                }
+
+        </style>   
+    </head>
+
+    <body>
+
+        <div class="recording"></div>
+        <div class="back-recording"></div>
+
+
+        <h1>I AM WATCHING YOU, GIT COMMIT NOW!</h1>
+       
+        
+         <script>
+            for (var i = 5000; i >= 1; i--){
+                $(".recording").fadeOut(200).fadeIn(200)
+                console.log(i);
+            }          
+         </script>
+    </body>
+</html>
